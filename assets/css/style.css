@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    flex: 0 0 300px;
+    display:flex;
+    flex-direction:column;
+    border-right:2px solid #ddd;
+    height:100vh;
+}
+
+
+.main-section{
+    flex: 1;
+}
+
+.icons{
+    display:flex;
+    gap:15px;
+    color:#828485
+}
+
+.user-status{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 20px;
+    border-bottom:2px solid #ddd;   
+}
+
+.user-status p{
+    font-size: small;
+    color: #828485;
+}
+
+.user-info{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.user-info img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border: 2px solid #bec1bb;
+    object-fit:cover;
+}
+.new-chat{
+    display:flex;
+    justify-content:center;
+    padding: 30px;
+    border-bottom:1px solid #ddd;   
+}
+
+.new-chat button{
+    padding:15px 40px;
+    background:#A491D2;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.lista-contactos{
+    display:flex;
+    flex-direction: column;
+}
+
+.contacto{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:15px 20px;
+    border-bottom:1px solid #ddd;
+}
+
+.contacto img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border: 2px solid #bec1bb;
+    object-fit:cover;
+}
+
+.main-section{
+    padding: 50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#f5f5f5;
+    text-align:center;
+}
+
+.main-section img{
+    width:250px;
+}
+
+
